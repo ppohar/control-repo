@@ -1,6 +1,6 @@
 node default {
-  file { "/root/README":
-      ensure => present,
-
-  }
+  file { '/root/README':
+      ensure  => present,
+      content => 'hello world',
+        }
 }
